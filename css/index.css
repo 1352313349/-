@@ -1,0 +1,432 @@
+/* ====================top css样式 start====================== */
+
+/* ----左侧样式 start----- */
+
+.top{
+    color: #666;
+    border-bottom: 1px solid #eee;
+    
+    background-color: #f9f9f9;
+    
+    /* line-height: 21px; */
+}
+.w1170{
+    margin: 0 auto;
+    height: 30px;
+    
+}
+.top .w1170 ul li{
+    height: 30px;
+    line-height: 30px;
+}
+
+.top .w1170 ul li a{
+    padding: 0 10px;
+
+}
+.top .w1170 ul.fl li a:hover{
+    text-decoration: underline;
+}
+.top .w1170 ul .collection a{
+    background: url(../imgs/star.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    padding-left: 20px;/* 从版心到标签距离 */
+    
+}
+.top .w1170 ul .collection a:hover{
+    background: url(../imgs/star-hover.png) no-repeat;
+}
+.top .w1170 ul li{
+   
+    float: left;
+    
+}
+.register a{
+    border-right: 1px solid #ccc;
+}
+/* ------左侧样式  end------- */
+/*--------------- 右侧样式  start----------- */
+.sanjiao{
+    width: 0;
+    height: 0;
+border-top: 4px solid transparent;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+border-bottom: 4px solid #666; 
+border: 4px solid transparent;
+border-top-color:  #666;
+position: absolute;
+top:13px;
+right:8px;
+}
+
+.top .w1170 .fr li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    
+}
+.top .w1170 .fr li a{
+    border-right: 1px solid #ccc;
+    padding: 0 21px 0 11px;
+}
+
+/* --------------右侧样式   end------------- */
+/* -------下拉样式 start-------- */
+/*.cover{
+    display: none;
+    position: absolute;
+    top:0;
+    right: 0px;
+    left: -2px;
+    bottom: 2px;
+    padding-left: 11px;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-bottom: 0;
+   border-top: 0;
+   cursor: pointer;  /*指鼠标指针放在一个元素边界范围内时所呈现的光标形状,它包括问号,小手等形状
+}
+.cover-list{
+    top: 27px;
+    right: 0;
+    background-color: #fff;
+    min-width: 80px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.cover-list>ul{
+    padding:15px;
+}
+ .cover-list>ul>li{
+    white-space: nowrap;
+} /*规定初步中的文本不进行换行*/
+/*.sanjiaot{
+    width: 0;
+    border: 4px solid transparent;
+    border-bottom-color: #666;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.fr>li:hover a{
+    border-right: 0px;
+}
+.fr>li:hover .cover{
+    display: block;
+}
+.fr>li:hover .cover-list{
+    display: block;
+}*/
+.cover{
+    position: absolute;
+    top: 0;
+    left: -2px;
+    right: 0;
+    bottom: 2px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+    padding-left: 11px;
+    /* padding-right: 18px; */
+    line-height: 30px;
+    color: #2BB8AA;
+    cursor: pointer;
+    display: none;
+}
+.cover-list{
+    position: absolute;
+    top: 27px;
+    right: 0;
+    border: 1px solid #ccc;
+    min-width: 80px;
+    background-color: #fff;
+    display: none;
+}
+.cover-list>ul{
+    padding:15px;
+}
+.cover-list>ul>li{
+    white-space: nowrap;
+}
+.sanjiaot{
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-bottom-color: #666;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.fr>li:hover a{
+    border-right: 0px;
+}
+.fr>li:hover .cover{
+    display: block;
+}
+.fr>li:hover .cover-list{
+    display: block;
+}
+/* --------下拉样式  end--------- */
+/* ====================top css样式 end====================== */
+
+
+/* ====================logo css样式 start==================== */
+/* #logo{
+    padding-top: 19px;
+    height: 84px;
+}
+.logo>h1{
+    display: inline-block;
+}
+.logo>ul{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+}
+.logo .city{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+}
+.logo .city-btn{
+    border: 1px solid #ccc;
+    padding: 5px 6px;
+} */
+#logo{
+    height: 84px;
+    padding-top: 19px;
+   
+   
+} 
+.logo>h1{
+display: inline-block ;
+}
+.logo ul{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+}
+.logo .city{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+}
+.logo .city-btn{
+    border: 1px solid #ccc;
+    padding: 5px 6px;
+}
+/* -------搜索样式----------- */
+.search{
+    margin-left: 183px;
+    
+    
+}
+.search .search-top{
+    border: 2px solid #2db8ad;
+    width: 486px;
+    height: 38px;
+    overflow: hidden;
+}
+.search .search-top button{
+    float: left;
+}
+.tuangou{
+    height: 100%;
+    border: 0;
+    outline: 0;
+   border-right: 1px solid #ccc;
+    background: #fff;
+    padding-left: 14px;
+    padding-right: 22px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+}
+.tuangou-toggle{
+    position: absolute;
+    top: 37px;
+    left: -1px;
+    right: -1px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    background-color: #fff;
+}
+.tuangou i{
+    top: 16px;
+}
+.search .search-top>input{
+    float: left;
+    height: 100%;
+    width: 352px;
+    padding-left: 5px;
+    outline: none;
+    border: 0;
+}
+.search .search-top .sousuo{
+    color:#fff;
+    width: 64px;
+    height: 100%;
+    float: right;
+    background-color: #2bb8aa;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+}
+.search .hre-list{
+    padding-top: 14px;
+}
+.search .hre-list a{
+    margin-right: 20px;
+}
+/* ------------最右侧------------ */
+.tui{
+    
+    position: relative;
+    top: 8px;
+}
+.tui>li{
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+}
+.tui>li>a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* ====================logo css样式 end==================== */
+
+
+/* =====================nav css样式 start==================== */
+#nav{
+    height: 40px;
+    background-color: #2bb8aa;
+}
+#nav a{
+    color: #fff;
+    text-decoration: none;
+}
+#nav h2{
+    width: 230px;
+    padding-left: 15px;
+    position: relative;
+    height: 100%;
+    line-height: 40px;
+    background-color: #1caf9a;
+}
+#nav>h2:hover .subnav{
+    display: block;
+}
+#nav>.list{
+    padding-left: 5px;
+}
+#nav>.list>li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 23px;
+}
+#nav>.list>li>a{
+    font-size: 14px;
+    font-weight: bold;
+}
+#nav>.list>li:hover{
+    background: #00C3B0;
+}
+/* ------------侧边导航--------------- */
+#nav .subnav{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    background-color: #fafafa;
+}
+#nav .subnav a{
+    color: #000;
+}
+#nav .subnav a.fr{
+    color: #999;
+    font-size: 12px;
+}
+#nav .subnav .list{
+    border: 1px solid #ccc;
+    border-top: 0;
+    height: 477px;
+    position: relative;
+}
+#nav .subnav .list li{
+    padding-left: 10px;
+    padding-right: 30px;
+    border-bottom: 1px solid #eee;
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+}
+#nav .subnav>.list>li>span{
+    position: absolute;
+    right: 16px;
+    top: 0px;
+    color: #999;
+}
+#nav .subnav>.list>li>.line{
+    position: absolute;
+}
+#nav .subnav>.list>li>.t{
+    width: 1px;
+    background-color: #fff;
+    top: 0;
+    right: -1px;
+    height: 52px;
+}
+#nav .subnav>.list>li>.l{
+    width: 14px;
+    height: 1px;
+    background: #eee;
+    right: 0;
+    bottom: -1px;
+}
+#nav .subnav>.list .dis{
+    display: none;
+}
+#nav .subnav>.list>li:hover>.dis{
+    display: block;
+}
+/* 让它后面紧挨着的兄弟ul显示出来 + 表示后面紧挨着的兄弟元素 */
+#nav .subnav>.list>li:hover+ul.dis{
+    display: block;
+}
+#nav .subnav>.list>li:hover{
+    background-color: #fff;
+}
+#nav .subnav>.list>li:hover span{
+    display: none;
+}
+/* ---------三级导航---------- */
+.threenav{
+    position: absolute;
+    left: 246px;
+    height: 477px;
+    background-color: #fff;
+    width: 200px;
+    top: 0px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    z-index: 999;
+    display: none;
+}
+/* ======================nav css样式  end====================== */
